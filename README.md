@@ -1,7 +1,9 @@
-## CDWiFi Autoconnect
+# CDWiFi Autoconnect
 
 This script will automatically allow you to use CDWiFi without you having to complete the challenge of the terms and
 conditions.
+
+## GNU/Linux
 
 ### Requirements
 
@@ -11,10 +13,10 @@ conditions.
 
 ### Installation
 
-1. Download the cdwifi-autoconnect-setup.sh script
+1. Download the cdwifi-autoconnect-setup.sh script.
 
 ```shell
-wget https://github.com/ingui-n/cdwifi-autoconnect/blob/master/cdwifi-autoconnect-setup.sh
+wget https://raw.githubusercontent.com/ingui-n/cdwifi-autoconnect/refs/heads/master/cdwifi-autoconnect-setup.sh
 ```
 
 2. Add execute permission to the script.
