@@ -1,17 +1,38 @@
 # CDWiFi Autoconnect
+![CD train](assets/cd-train.webp)
 
-This script will automatically allow you to use CDWiFi without you having to complete the challenge of the terms and
-conditions.
+_Are you tired of waiting for 30 seconds add just to connect to Wi-Fi on a train
+of [České dráhy](https://www.cd.cz/)?_
 
-## GNU/Linux
+Fortunately, there is a simple solution to this problem.
 
-### Requirements
+Simply open this website in your web browser to access the Wi-Fi:
+
+http://cdwifi.cz/portal/api/vehicle/gateway/user/authenticate?category=internet&url=http%3A%2F%2Fcdwifi.cz%2Fportal%2Fapi%2Fvehicle%2Fgateway%2Fuser%2Fsuccess
+
+Don't forget to save it to your web browser's bookmarks 🙂
+
+## What does it do?
+
+Opening this page tells the CDWifi server, which manages device access, that your device has completed the terms
+agreement challenge and is ready to use the internet.
+
+The same request runs in the background when you click or tap `Continue` on the standard terms agreement website.
+
+## Automated scripts
+
+### GNU/Linux
+
+This script runs when you connect to any network. If the connected network's SSID is `CDWiFi`, it will run an HTTP
+request.
+
+#### Requirements
 
 - NetworkManager
 - wget
 - root privilege to create and edit files in `/etc/NetworkManager/dispatcher.d/`
 
-### Installation
+#### Installation
 
 1. Download the cdwifi-autoconnect-setup.sh script.
 
