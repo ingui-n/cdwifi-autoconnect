@@ -1,9 +1,8 @@
 # CDWiFi Autoconnect
 ![CD train](assets/cd-train.webp)
 
-<div style="display: flex; justify-content: flex-end;">
-  <p style="margin: 0; padding: 0;">Photo from:</p>
-  <a href="https://rail.pictures/47056" style="margin-left: 4px;">https://rail.pictures/47056</a>
+<div align="right">
+  <span>Photo from: <a href="https://rail.pictures/47056">https://rail.pictures/47056</a></span>
 </div>
 
 _Are you tired of waiting for 30 seconds add just to connect to Wi-Fi on a train
