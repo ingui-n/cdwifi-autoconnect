@@ -5,6 +5,8 @@
   <span>Photo from: <a href="https://rail.pictures/47056">https://rail.pictures/47056</a></span>
 </div>
 
+---
+
 _Are you tired of waiting for 30 seconds add just to connect to Wi-Fi on a train
 of [České dráhy](https://www.cd.cz/)?_
 
