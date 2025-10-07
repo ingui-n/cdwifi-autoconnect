@@ -1,6 +1,11 @@
 # CDWiFi Autoconnect
 ![CD train](assets/cd-train.webp)
 
+<div style="display: flex; justify-content: flex-end;">
+  <p style="margin: 0; padding: 0;">Photo from:</p>
+  <a href="https://rail.pictures/47056" style="margin-left: 4px;">https://rail.pictures/47056</a>
+</div>
+
 _Are you tired of waiting for 30 seconds add just to connect to Wi-Fi on a train
 of [České dráhy](https://www.cd.cz/)?_
 
@@ -21,7 +26,7 @@ The same request runs in the background when you click or tap `Continue` on the 
 
 ## Automated scripts
 
-### GNU/Linux
+### Linux
 
 This script runs when you connect to any network. If the connected network's SSID is `CDWiFi`, it will run an HTTP
 request.
